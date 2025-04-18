@@ -1,0 +1,14 @@
+[package]
+name = "renderer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wgpu = { version = "24.0.3", features = ["spirv", "glsl"] }
+freetype-rs = { version = "0.38.0", features = [] }
+image = "0.25.6"
+tracing = { workspace = true }
+tao = { workspace = true }
+glam = { workspace = true }
+thiserror = { workspace = true }
+util = { workspace = true }
