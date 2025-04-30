@@ -1,6 +1,7 @@
 pub mod button;
 pub mod bx;
 pub mod dialog;
+pub mod style;
 pub mod text;
 
 use std::fmt::Debug;

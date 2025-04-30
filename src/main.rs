@@ -59,7 +59,8 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     let value = runtime.create_signal(10);
 
-    let test_ui = mesh_macros::view! {Bx(
+    let test_ui = mesh_macros::view! {
+        Bx(
             padding(Vec4::splat(8.0)),
             spacing(Vec2::splat(8.0)),
             sizing((Sizing::Expand, Sizing::Expand)),
